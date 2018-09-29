@@ -9,8 +9,9 @@ namespace NumberToRomanNumeral
         [Theory]
         [InlineData(1,"I")]
         [InlineData(2, "II")]
+        [InlineData(3, "III")]
         // [InlineData(5, "V")]
-        public void One_To_I(int number, string expectedRomanNumeral)
+        public void number_To_RomanNumeral(int number, string expectedRomanNumeral)
         {
             //Arrange
             var converter = new Converter();
