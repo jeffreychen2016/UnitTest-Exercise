@@ -35,7 +35,7 @@ namespace NumberToRomanNumeral
         [InlineData(1006, "MVI")]
         [InlineData(1023, "MXXIII")]
         [InlineData(2014, "MMXIV")]
-        //[InlineData(3999, "MMMCMXCIX")]
+        [InlineData(3999, "MMMCMXCIX")]
         public void number_To_RomanNumeral(int number, string expectedRomanNumeral)
         {
             //Arrange
