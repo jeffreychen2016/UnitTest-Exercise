@@ -15,7 +15,7 @@ namespace NumberToRomanNumeral
         [InlineData(6, "VI")]
         [InlineData(9, "IX")]
         [InlineData(10, "X")]
-        //[InlineData(12, "XII")]
+        [InlineData(12, "XII")]
 
 
 
