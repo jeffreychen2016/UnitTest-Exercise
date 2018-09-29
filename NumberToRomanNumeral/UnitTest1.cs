@@ -21,7 +21,7 @@ namespace NumberToRomanNumeral
         [InlineData(44, "XLIV")]
         [InlineData(45, "XLV")]
         [InlineData(68, "LXVIII")]
-        //[InlineData(83, "LXXXIII")]
+        [InlineData(83, "LXXXIII")]
         //[InlineData(97, "XCVII")]
         //[InlineData(99, "XCIX")]
         //[InlineData(500, "D")]
