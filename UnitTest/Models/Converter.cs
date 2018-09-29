@@ -18,13 +18,17 @@ namespace UnitTest.Models
 
         public string ConvertNumberToRomanNumeral(int number)
         {
-            var result = "";
+            var result = new StringBuilder();
             foreach (var item in _numberToRomanNumeralDictionary)
             {
-                result = item.Value;
+                while (number >= item.Key)
+                {
+                    result.Append(item.Value);
+                    number -= item.Key;
+                }
             }
 
-            return result;
+            return result.ToString();
         }
     }
 }

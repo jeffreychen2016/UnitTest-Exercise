@@ -8,7 +8,7 @@ namespace NumberToRomanNumeral
     {
         [Theory]
         [InlineData(1,"I")]
-        // [InlineData(2, "II")]
+        [InlineData(2, "II")]
         // [InlineData(5, "V")]
         public void One_To_I(int number, string expectedRomanNumeral)
         {
