@@ -12,6 +12,7 @@ namespace UnitTest.Models
         {
             _numberToRomanNumeralDictionary = new Dictionary<int, string>
             {
+                { 90, "XC"},
                 { 50, "L"},
                 { 40, "XL"},
                 { 10, "X"},
