@@ -31,7 +31,7 @@ namespace NumberToRomanNumeral
         [InlineData(798, "DCCXCVIII")]
         [InlineData(891, "DCCCXCI")]
         [InlineData(1000, "M")]
-        //[InlineData(1004, "MIV")]
+        [InlineData(1004, "MIV")]
         //[InlineData(1006, "MVI")]
         //[InlineData(1023, "MXXIII")]
         //[InlineData(2014, "MMXIV")]
