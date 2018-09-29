@@ -26,7 +26,7 @@ namespace NumberToRomanNumeral
         [InlineData(99, "XCIX")]
         [InlineData(100, "C")]
         [InlineData(500, "D")]
-        //[InlineData(501, "DI")]
+        [InlineData(501, "DI")]
         //[InlineData(649, "DCXLIX")]
         //[InlineData(798, "DCCXCVIII")]
         //[InlineData(891, "DCCCXCI")]
